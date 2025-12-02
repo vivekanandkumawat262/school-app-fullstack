@@ -1,0 +1,38 @@
+<h1>Login</h1>
+
+<form action="/login" method="POST">
+  <div>
+    <label for="username">Username</label><br />
+    <input
+      type="text"
+      id="username"
+      name="username"
+      placeholder="Enter username"
+      required
+    />
+  </div>
+
+  <br />
+
+  <div>
+    <label for="password">Password</label><br />
+    <input
+      type="password"
+      id="password"
+      name="password"
+      placeholder="Enter password"
+      required
+    />
+  </div>
+
+  <br />
+
+  <button type="submit">Login</button>
+</form>
+
+<br />
+
+<p>
+  Don’t have an account?
+  <a href="/signup">Create one</a>
+</p>

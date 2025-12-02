@@ -1,0 +1,13 @@
+<h1>Posts</h1>
+
+<p>Welcome, <strong><%= user.name %></strong>!</p>
+
+<ul>
+  <% posts.forEach(post => { %>
+    <li>
+      <strong><%= post.username %></strong> — <%= post.title %>
+    </li>
+  <% }) %>
+</ul>
+
+<a href="/logout">Logout</a>
