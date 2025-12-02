@@ -1,0 +1,32 @@
+{
+  "name": "first_project_1",
+  "version": "1.0.0",
+  "description": "The goal is to build a **School / Academy Management System** with:",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivekanandkumawat262/school-app-fullstack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vivekanandkumawat262/school-app-fullstack/issues"
+  },
+  "homepage": "https://github.com/vivekanandkumawat262/school-app-fullstack#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.2.0",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^9.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^17.2.3",
+    "nodemon": "^3.1.11"
+  }
+}
